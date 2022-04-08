@@ -94,6 +94,12 @@ return packer.startup(function(use)
   -- Git
   use "lewis6991/gitsigns.nvim"
 
+  -- ============================================
+  -- HESENGER PLUGINS
+  use "ellisonleao/gruvbox.nvim"
+  use "karb94/neoscroll.nvim"
+  use "sbdchd/neoformat"
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
